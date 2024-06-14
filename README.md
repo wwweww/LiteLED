@@ -1,6 +1,6 @@
 # LiteLED
 
-## v1.2.0
+## v1.3.0-dev
 
 ## What is it?
 
