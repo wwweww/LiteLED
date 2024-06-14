@@ -1,6 +1,7 @@
 # LiteLED
 
 ## v1.3.0-dev
+Develolpment brancj fpor testing against arduino-esp32 core v3.0.1
 
 ## What is it?
 
