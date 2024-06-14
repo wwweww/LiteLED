@@ -3,9 +3,9 @@
     - MIT Licensed as described in the file LICENSE
 */
 
-#include <hal/rmt_types.h>
+#include "hal/rmt_types.h"
 #include <cstddef>
-#include <hal/gpio_types.h>
+#include "hal/gpio_types.h"
 #include <Arduino.h>
 #include "LiteLED.h"
 #include "llrmt.h"

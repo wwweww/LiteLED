@@ -8,15 +8,15 @@
 #ifndef __LITELED_H__
 #define __LITELED_H__
 
-#include <hal/rmt_types.h>
-#include <driver/gpio.h>
+#include "hal/rmt_types.h"
+#include "driver/gpio.h"
 #include <esp_err.h>
-#include <driver/rmt.h>
+#include "driver/rmt.h"
 #include "llrgb.h"
 
-#if ESP_IDF_VERSION < ESP_IDF_VERSION_VAL( 4, 4, 1 ) || ESP_IDF_VERSION >= ESP_IDF_VERSION_VAL( 5, 0, 0 )
-    #error "LiteLED requires arduino-esp32 core version to be at least 2.0.3 but less than 3.0.0."
-#endif
+//#if ESP_IDF_VERSION < ESP_IDF_VERSION_VAL( 4, 4, 1 ) || ESP_IDF_VERSION >= ESP_IDF_VERSION_VAL( 5, 0, 0 )
+//    #error "LiteLED requires arduino-esp32 core version to be at least 2.0.3 but less than 3.0.0."
+//#endif
 
 // following defines are 'magic numbers' from the esp-idf-library led_strip driver
 #define LED_STRIP_FLUSH_TIMEOUT  1000UL

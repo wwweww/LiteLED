@@ -5,7 +5,9 @@
 
 #include <esp_log.h>
 #include <esp_attr.h>
-
+#if ESP_IDF_VERSION >= ESP_IDF_VERSION_VAL( 5, 0, 0 )
+#include "rom/ets_sys.h"
+#endif
 #ifndef RMT_DEFAULT_CONFIG_TX
 #define RMT_DEFAULT_CONFIG_TX( gpio, channel_id )    \
     {                                                \
